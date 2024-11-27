@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Deportiva</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Menú de navegación -->
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="about.html">Sobre nosotros</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- Sección de Tienda -->
+    <main id="tienda">
+        <h1>Tienda Deportiva</h1>
+        <div class="productos">
+            <!-- Producto 1 -->
+            <div class="producto">
+                <img src="/images/short10.jpg" alt="Playera Deportiva">
+                <h2>short deportivo/h2>
+                <p>Precio: $25.00</p>
+                <button class="agregar-btn" data-nombre="Playera Deportiva" data-precio="25">Agregar al Carrito</button>
+            </div>
+            <!-- Producto 2 -->
+            <div class="producto">
+                <img src="/images/tenis2.jpg" alt="Botella Deportiva">
+                <h2>Tenis deportivos</h2>
+                <p>Precio: $15.00</p>
+                <button class="agregar-btn" data-nombre="Botella Deportiva" data-precio="15">Agregar al Carrito</button>
+            </div>
+            <!-- Producto 3 -->
+            <div class="producto">
+                <img src="/images/cosas11.jpg" alt="Calcetas Deportivas">
+                <h2>Faja de cuero </h2>
+                <p>Precio: $10.00</p>
+                <button class="agregar-btn" data-nombre="Calcetas Deportivas" data-precio="10">Agregar al Carrito</button>
+            </div>
+        </div>
+    </main>
+
+    <!-- Sección del Carrito -->
+    <section id="carrito">
+        <h1>Carrito de Compras</h1>
+        <div id="ticket-container">
+            <h2>Ticket de Compra</h2>
+            <div id="ticket">
+                <!-- Productos añadidos dinámicamente -->
+            </div>
+            <p id="total-pagar"><strong>Total a Pagar:</strong> $0.00</p>
+            <button id="finalizar-compra">Finalizar Compra</button>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

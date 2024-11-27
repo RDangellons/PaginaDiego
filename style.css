@@ -1,0 +1,163 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Menú */
+header {
+    background-color: #4CAF50;
+    padding: 1rem;
+    position: relative;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 2rem 0 0; /* Mueve el menú más abajo */
+    padding: 0;
+}
+
+.menu li {
+    margin: 0 1rem;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.menu li a:hover {
+    color: #ff9800;
+}
+
+
+/* Tienda */
+main#tienda {
+    padding: 2rem;
+    text-align: center;
+}
+
+.productos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.producto {
+    background-color: #fff;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 250px;
+}
+
+.producto h2 {
+    font-size: 1.5rem;
+    color: #4CAF50;
+}
+
+.producto button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.producto button:hover {
+    background-color: #45A049;
+}
+
+.producto img {
+    max-width: 100%; /* Las imágenes ocuparán el ancho del contenedor */
+    height: 200px; /* Altura fija para las imágenes */
+    object-fit: cover; /* Recorta las imágenes si son más grandes */
+    border-radius: 5px; /* Bordes redondeados para las imágenes */
+    margin-bottom: 1rem;
+}
+
+/* Carrito */
+#carrito {
+    padding: 2rem;
+    text-align: center;
+}
+
+#ticket-container {
+    background-color: #fff;
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#ticket {
+    margin: 1rem 0;
+    line-height: 1.5;
+}
+
+#finalizar-compra {
+    background-color: #d32f2f;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#finalizar-compra:hover {
+    background-color: #b71c1c;
+}
+
+/* Secciones de Empresa */
+section {
+    padding: 2rem;
+    margin: 1.5rem auto;
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #4CAF50;
+    border-bottom: 2px solid #81C784;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+p, li {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 2rem;
+}
+/* Logo */
+.logo {
+    width: 120px; /* Ajusta el tamaño del logo */
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+
+
+
+
